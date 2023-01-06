@@ -1,0 +1,38 @@
+footer {
+    font-family: 'Open Sans', sans-serif;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper-footer {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: gray;
+        
+       .wrap-footer {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+            align-items: center;
+            gap: 55px 55px;
+            .footer-link {
+                display: flex;
+                gap: 25px 25px;
+                 a {
+            text-decoration: none;
+            color: gray;
+            text-transform: uppercase;
+            }
+            }  
+            .footer-social {
+                display: flex;
+                gap: 25px 25px;
+            }
+     }
+}
+
+}

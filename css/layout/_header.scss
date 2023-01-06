@@ -1,10 +1,19 @@
 // header de toutes les pages
+// faux !! à refaire car pas précis
 .nav-wrapper {
-    width: 80%;
+    background: rgb(206, 203, 203);
+    width: 90%;
     height: 200px;
     margin: 0 auto;
     display: flex;
-    .nav-logo {
-        align-self: center;
+   justify-content: center;
+    flex-direction: column-reverse;
+    .wrap-logo {
+        width: 100%;
+        margin: 0 auto;
+        
+       
     }
 }
+
+
