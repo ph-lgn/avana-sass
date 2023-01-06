@@ -1,0 +1,10 @@
+// header de toutes les pages
+.nav-wrapper {
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    .nav-logo {
+        align-self: center;
+    }
+}
