@@ -1,8 +1,12 @@
 // header de toutes les pages
 // faux !! à refaire car pas précis
+header {
+    width: 100%;
+    margin: 0 auto; 
+    background: rgb(241, 235, 235);
 .nav-wrapper {
-    background: rgb(206, 203, 203);
-    width: 90%;
+   
+    width: 70%;
     height: 200px;
     margin: 0 auto;
     display: flex;
@@ -15,5 +19,5 @@
        
     }
 }
-
+}
 
