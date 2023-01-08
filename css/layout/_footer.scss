@@ -30,9 +30,42 @@ footer {
             }  
             .footer-social {
                 display: flex;
-                gap: 25px 25px;
+                justify-content: center;
+                align-items: center;
+                gap: 25px 25px; 
+                text-align: center;
+                margin-right: 10px;
+                font-size: 20px;
+                transition: 0.3s all ease-in-out;   
+
+                a {
+                    color: white;
+                    background: rgb(208, 208, 208);
+                    text-decoration: none;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-radius: 50%;
+                    // dès que je mmets bg ,plus de chgmt
+                   
+  
+                }
             }
-     }
-}
+        }
+    }
 
 }
+
+//! pq ne change pas de bg??
+.footer-social a:hover{
+    opacity: 1;
+    // background-color: #fb5353;
+    // color: white;
+   
+    
+   
+  }
+
+  .footer-link a:hover{
+    color: #fb5353;
+  }

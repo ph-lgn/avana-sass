@@ -2,3 +2,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 // pq ça ne fonctionne pas
+::selection {
+    background-color: #fb5353;
+    color: #fff;
+    
+}
