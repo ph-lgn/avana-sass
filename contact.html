@@ -24,34 +24,42 @@
         </nav>
     </header>
     
-    <main>
-        <div class="wrapper-main">
-            <div class="main-contact">
-                <div class="wrap-contact">
-                    <div class="wrap-title">
-                        <h1>Hey Thr!</h1>
-                        <h2>We love to hear</h2>
-                        <a href="">tel:8197654321 </a>
-                        <a href="mailto:contact@avana.com"> contact@avana.com</a>
-                    </div>
-                    <div class="wrap-map">
-                        <img src="" alt="">
-                    </div>
-                </div>
+    <main class="contact">
 
-                <div class="wrap-form">
-                    <form action="backend">
-                        <label for="name">What's your name</label>
-                        <input type="text" id="name">
-                        <label for="email">What's your email</label>
-                        <input type="text" id="emai">
-                        <label for="name">What's your mind</label>
-                        <textarea name="" id="bloc-texte" placeholder=""></textarea>
+        <div class="box-contact">
+            <div class="wrapper-contact">
+                    <!-- contact -->
+                    <div class="flex-contact">
+                        <div class="wrap-title">
+                            <h1>Hey Thr!</h1>
+                            <span>We love to hear.</span>
+                        <div class="flex-a">
+                            <a href="" class="fa fa-phone">+8197654321 </a>
+                            <a href="mailto:contact@avana.com" class="fa fa-envelope"> contact@avana.com</a>
+                        </div>
+                        </div>
+                    </div>
+                <!-- map-carte -->
+                     <div class="wrap-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20140.803359726833!2d4.4007423999999995!3d50.875596800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sbe!4v1673258214362!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+            </div>
+        </div>
+                <!-- form -->
+        <div class="box-form">
+                <form action="backend">
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="What's your name">
+                        <label for="email"></label>
+                        <input type="text" id="emai" placeholder="What's your email">
+                        <label for="name"></label>
+                        <textarea name="" id="bloc-texte" placeholder="What's your mind"></textarea>
                         <label for="submit"></label>
                         <input type="submit" value="send email">
                     </form>
                 </div>
-            </div>
+            
         </div>
     </main>
 

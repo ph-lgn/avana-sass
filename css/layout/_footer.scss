@@ -47,7 +47,9 @@ footer {
                     line-height: 40px;
                     border-radius: 50%;
                     // dès que je mmets bg ,plus de chgmt
-                   
+                    &:hover {
+                        background-color: #fb5353;
+                    }
   
                 }
             }
@@ -56,16 +58,3 @@ footer {
 
 }
 
-//! pq ne change pas de bg??
-.footer-social a:hover{
-    opacity: 1;
-    // background-color: #fb5353;
-    // color: white;
-   
-    
-   
-  }
-
-  .footer-link a:hover{
-    color: #fb5353;
-  }
