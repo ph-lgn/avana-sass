@@ -55,57 +55,51 @@ section {
     // wrapper img + txt !!!
 
     .wrapper-bottom {
+       
         width: 70%;
         display: flex;
         justify-content:center;
         align-items: center; 
         margin-bottom: 50px;
+        gap: 45px;
             .wrap-img {
-                position: relative;
-                width: 100%;
-                height: 100%;
-              
-                .zoom-img {
+                position: relative; 
+                overflow: hidden;
+                width: 30%;
+                img {
                     width: 100%;
-                    height: 90%;
-                    img{
-                        width: 100%;
-                    }
-                    }
+                    transition: .3s all ease-in-out;
+                }
+            }
                 .txt-abs {
                     text-align: center;
-                    width: 90%;
+                    width: 50%;
                     position: absolute;
-                    top: 100%;
+                    bottom: 0;
                     left: 50%;
-                    transform: translate(-50%,-50%);
-                    // position: absolute;
+                    transform: translate(-50%,100%);
                     background: #fd5656;
                     color: white;
                     height: 30%;
-                    opacity: 1;
-                    transition: .3s all ease-in-out;
+                    opacity: 0;
+                    transition: .5s all ease-in-out;
                     
                 }
             
-            }
-        
-        
-        
-    }
-}
+     }
     
-
+}
 
 //  hover
 
 .wrap-img:hover .txt-abs{
     position: absolute;
-    top: 50%;
+    bottom: -100px;
     left: 50%;
-    transform: translateY(0%);
+    transform: translate(-50%,-50%);
     opacity: 1;
-    transition: .3s all ease-in-out; 
+    transition: .6s all ease-in-out; 
+    z-index: 10;
     
 }
 
@@ -118,12 +112,13 @@ section {
     width:100%;
     height: 100%;
     z-index: 10;
+    transition: .3s all ease-in-out;
 }
 
 .wrap-img:hover img {
-    
-    transition: all 0.3s ease-in-out;
-    width: 200%;
+    overflow: hidden;
+    transform: scale(1.15);
+    transition: .3s all ease-in-out; 
 }
 
 
@@ -201,7 +196,9 @@ section {
                 }
             }
         }
-}
+    }
+
+
 
 .wrap-all:hover .txt-article{
     background: #fb5353;
