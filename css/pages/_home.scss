@@ -40,7 +40,7 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
-                transition: .3 all ease-in-out;
+                transition: .3s all ease-in-out;
                 color: white;
                 
             }   
@@ -52,12 +52,7 @@
             div {
                 opacity: 0;
             }
-            .homepage:hover h2 {
-                top: 35%;
-            }
-            .homepage:hover div {
-                opacity: 1;
-            }
+          
         
         }
 
@@ -65,7 +60,12 @@
     
 }
 
-
+.homepage:hover h2 {
+    top: 35%;
+}
+.homepage:hover div {
+    opacity: 1;
+}
 
 .homepage::before {
     content: '';
