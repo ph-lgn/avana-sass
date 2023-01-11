@@ -1,5 +1,9 @@
-body {
+body{
     font-family: 'Open Sans', sans-serif;
+    background: rgb(241, 235, 235);
+    footer {
+        background: white;
+    }
 }
 // pq ça ne fonctionne pas
 ::selection {
